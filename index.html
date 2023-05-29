@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		section {
+			width: 100%;
+			height: 100vh;
+			background:
+				url(
+'https://www.norcalcompactors.net/wp-content/uploads/2019/01/plastic-recycling.jpg'
+				);
+			background-size: cover;
+		}
+		section .leftBox {
+			width: 50%;
+			height: 100%;
+			float: left;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+		section .leftBox .content {
+			color: #fff;
+			background: rgba(0, 0, 0, 0.5);
+			padding: 40px;
+			transition: .5s;
+		}
+		section .leftBox .content:hover {
+			background: rgb(83,170,80);
+		}
+		section .leftBox .content h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+		section .leftBox .content p {
+			margin: 10px 0 0;
+			padding: 0;
+		}
+		section .events {
+			position: relative;
+			width: 50%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			float: right;
+			box-sizing: border-box;
+		}
+		section .events ul {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0;
+			padding: 40px;
+			box-sizing: border-box;
+		}
+
+		section .events ul li {
+			list-style: none;
+			background: #fff;
+			box-sizing: border-box;
+			height: 200px;
+			margin: 15px 0;
+		}
+		section .events ul li .time {
+			position: relative;
+			padding: 20px;
+			background: #262626;
+			box-sizing: border-box;
+			width: 30%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			transition: .5s;
+		}
+	
+		section .events ul li:hover .time {
+			background: rgb(83,170,80);
+		}
+		
+		section .events ul li .time h2 {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 60px;
+			line-height: 30px;
+		}
+		section .events ul li .time h2 span {
+			font-size: 30px;
+		}
+
+		section .events ul li .details {
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+			width: 70%;
+			height: 100%;
+			float: left;
+		}
+		section .events ul li .details h3 {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			font-size: 22px;
+		}
+		section .events ul li .details p {
+			position: relative;
+			margin: 10px 0 0;
+			padding: 0;
+			font-size: 16px;
+		}
+		section .events ul li .details a {
+			display: inline-block;
+			text-decoration: none;
+			padding: 10px 15px;
+			border: 1.5px solid #262626;
+			margin-top: 8px;
+			font-size: 18px;
+			transition: .5s;
+		}
+		section .events ul li .details a:hover {
+			background: rgb(83,170,80);
+			color: #fff;
+			border-color: rgb(83,170,80);
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<div class="leftBox">
+			<div class="content">
+				<h1>
+					Recycle Events & Management
+				</h1>
+				<p>
+					Recycling, recovery and reprocessing of waste materials for use in new products.
+                    The basic phases in recycling are the collection of waste materials, their processing
+                    or manufacture into new products, and the purchase of those products, which may then 
+                    themselves be recycled. Typical materials that are recycled include iron and steel scrap, 
+                    aluminum cans, glass bottles, paper, wood, and plastics. The materials reused in recycling 
+                    serve as substitutes for raw materials obtained from such increasingly scarce natural resources as petroleum, 
+                    natural gas, coal, mineral ores, and trees. Recycling can help reduce the quantities of solid waste deposited in 
+                    landfills, which have become increasingly expensive. Recycling also reduces the pollution of air, water, and land 
+                    resulting from waste disposal.
+				</p>
+			</div>
+		</div>
+		<div class="events">
+			<ul>
+				<li>
+					<div class="time">
+						<h2>
+							15 <br><span>March</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Waste give away event
+						</h3>
+						<p>
+							With the idea of waste managing, the
+                            Corporation has organized an event of giving away waste as a 
+                            raw material to those companies, in reasonable prices.
+                            The venue is Shivajinagar,Pune.
+						</p>
+						<a href="#">View Details</a>
+					</div>
+					<div style="clear: both;"></div>
+				</li>
+				<li>
+					<div class="time">
+						<h2>
+							27 <br><span>May</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Waste Collection by Tata group
+						</h3>
+						<p>
+							With the idea of organizing the waste recycling event,
+                            Tata technologies has planned a waste collection event 
+                            at Royal Palms,Koregaon. The event
+                            will be having free entry, along with credit 
+                            points to the citizens.
+						</p>
+						<a href="#">View Details</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+				<li>
+					<div class="time">
+						<h2>
+							12 <br><span>August</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Paper event by Marathwada 
+						</h3>
+						<p>
+							With the idea of collecting waste from citizens, Marathwada group
+                            of education is organizing an event of paper collection from students of standard 
+                            10th till graduation. Venue will be Marathwada Mitramandal's 
+                            College of Engineering,Pune.
+						</p>
+						<a href="#">View Details</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>

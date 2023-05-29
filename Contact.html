@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="color: white;">Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Swachhata Website!</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="abeychup.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="Contact.html">Contact us</a></li>
+      <li><a href="hello.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
